@@ -1,3 +1,4 @@
+fpdf
 streamlit
 langchain-groq
 langchain-community
