@@ -34,7 +34,7 @@ if not GROQ_API_KEY or "YOUR_GROQ_API_KEY" in GROQ_API_KEY:
     st.error("🚨 GROQ API Key Missing! Add to .streamlit/secrets.toml or set GROQ_API_KEY environment variable")
     st.stop()
 
-os.environ["GROQ_API_KEY"] = GROQ_API_KEY
+os.environ["GROQ_API_KEY"] = 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
 
 # Page configuration
 st.set_page_config(
